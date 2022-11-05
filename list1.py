@@ -104,7 +104,7 @@ def tryagain():
         print("\n\033[1mHope to see you again. Thank you for using the program!\n\033[0m")
         print("\033[1m>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PROGRAM CLOSED <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\033[0m")
     else:
-        tryagain
+        tryagain()
 
 list1()
 
