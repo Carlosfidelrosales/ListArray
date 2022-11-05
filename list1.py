@@ -86,7 +86,7 @@ def list1():
         print("\n\033[1mThis is the new Array:\033[0m" , myInventory)
 
     elif list_menu == "6": #6 -> Arrange in descending order
-        print("\n\033[41;1m SORT AN ELEMENT TO ASCENDING MENU \n\033[0m")
+        print("\n\033[41;1m SORT AN ELEMENT TO DESCENDING MENU \n\033[0m")
         print("\033[1mPrevious =\033[0m", myInventory)
         myInventory.sort(reverse=True) 
         print("\n\033[1mThis is the new Array:\033[0m" , myInventory)
