@@ -70,7 +70,7 @@ def list1():
         num_flt1 = int(input("\033[3mPlease enter the number you want:\033[0m "))
         myInventory.pop(num_idx1)
         myInventory.insert(num_idx1, num_flt1)
-        print("\n033[1mThis is the new Array:\033[0m" , myInventory)
+        print("\n\033[1mThis is the new Array:\033[0m" , myInventory)
 
     elif list_menu == "4": #4 -> Delete an element
         print("\n\033[41;1m DELETE AN ELEMENT MENU \n\033[0m")
@@ -81,11 +81,13 @@ def list1():
 
     elif list_menu == "5": #5 -> Arrange in ascending order
         print("\n\033[41;1m SORT AN ELEMENT TO ASCENDING MENU \n\033[0m")
+        print("\033[1mPrevious =\033[0m", myInventory)
         myInventory.sort() 
         print("\n\033[1mThis is the new Array:\033[0m" , myInventory)
 
     elif list_menu == "6": #6 -> Arrange in descending order
         print("\n\033[41;1m SORT AN ELEMENT TO ASCENDING MENU \n\033[0m")
+        print("\033[1mPrevious =\033[0m", myInventory)
         myInventory.sort(reverse=True) 
         print("\n\033[1mThis is the new Array:\033[0m" , myInventory)
 
